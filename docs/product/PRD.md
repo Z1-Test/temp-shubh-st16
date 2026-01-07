@@ -33,14 +33,14 @@
 
 ## 1. Document Information
 
-| Field              | Details                          |
-| ------------------ | -------------------------------- |
-| **Document Title** | Todo App with Auth & Sync - PRD  |
-| **File Location**  | `docs/product/PRD.md`            |
-| **Version**        | 1.1.0                            |
-| **Date**           | 2026-01-06                       |
-| **Author(s)**      | Product Team                     |
-| **Stakeholders**   | Product, Engineering, Operations |
+| Field              | Details                                    |
+| ------------------ | ------------------------------------------ |
+| **Document Title** | `itsme.fashion Strategic PRD`              |
+| **File Location**  | `docs/product/PRD.md`                      |
+| **Version**        | `1.0.0`                                    |
+| **Date**           | `2025-12-30`                               |
+| **Author(s)**      | `Product Team`                             |
+| **Stakeholders**   | `Product, Engineering, Business Leadership`|
 
 ---
 
@@ -62,72 +62,99 @@ Execution may be human-driven, agent-driven, or hybrid.
 
 ## 3. Feature Index (Living Blueprints)
 
-| Feature ID | Title | GitHub Issue | Blueprint Path | Status |
-| ---------- | ----- | ------------ | -------------- | ------ |
-| TBD        | TBD   | TBD          | TBD            | Draft  |
+*This section will be populated as features are defined through the roadmap and specification process.*
+
+| Feature ID  | Title             | GitHub Issue  | Blueprint Path                      | Status           |
+| ----------- | ----------------- | ------------- | ----------------------------------- | ---------------- |
+| TBD         | TBD               | TBD           | TBD                                 | Draft            |
 
 ---
 
 ## 4. Product Vision
 
-Build a modern, reliable todo application that empowers users to manage their tasks effectively while providing seamless access across devices through authentication and real-time synchronization.
+**itsme.fashion** empowers people to express their uniqueness with premium, clean, and cruelty-free beauty products delivered through a fast, trustworthy, and elegant shopping experience.
+
+The platform democratizes access to ethical beauty by combining:
+- Premium product quality emphasizing natural ingredients and ethical manufacturing
+- Modern, mobile-first user experience that removes friction from discovery to delivery
+- Transparent communication about product ingredients, sourcing, and brand values
+- Trust through secure transactions, reliable fulfillment, and clear order tracking
+
+itsme.fashion positions itself as the go-to destination for conscious consumers seeking beauty products that align with their values without compromising on quality or convenience.
 
 ---
 
 ## 5. Core Business Problem
 
-Users need a simple yet powerful way to track tasks across multiple devices without losing data or experiencing sync conflicts. Current solutions either lack real-time synchronization, require complex setup, or fail to provide secure user authentication. This creates friction in task management workflows and reduces productivity.
+Conscious consumers seeking premium beauty products face a fragmented, frustrating experience characterized by:
+
+1. **Trust Deficit**: Difficulty verifying claims about natural ingredients, cruelty-free practices, and ethical manufacturing across multiple retailers
+2. **Discovery Friction**: Time-consuming research across multiple platforms to find products that meet specific ingredient preferences and ethical criteria
+3. **Inconsistent Experience**: Poor mobile experiences, slow checkout flows, and opaque order tracking create anxiety and abandonment
+4. **Limited Assurance**: Uncertainty about product authenticity, ingredient safety, and brand values leads to purchase hesitation
+
+Existing general-purpose ecommerce platforms lack the specialization, curation, and transparency required to serve this growing segment effectively. This creates an opportunity for a purpose-built platform that prioritizes ethical beauty, user trust, and seamless experience.
 
 ---
 
 ## 6. Target Personas & Primary Use Cases
 
-| Persona               | Description                                | Goals                                                      | Key Use Cases                                                         |
-| --------------------- | ------------------------------------------ | ---------------------------------------------------------- | --------------------------------------------------------------------- |
-| Individual User       | Person managing personal tasks             | Track todos efficiently, access from any device            | Create tasks, mark complete, sync across devices                      |
-| Mobile-First User     | User primarily accessing via mobile device | Quick task entry, offline capability, instant sync         | Add tasks on-the-go, view synced tasks, offline task management       |
-| Multi-Device User     | User switching between desktop and mobile  | Consistent experience, automatic sync, no manual conflicts | Start task on desktop, complete on mobile, see real-time updates      |
-| Privacy-Conscious User| User concerned about data security         | Secure authentication, data privacy, account isolation     | Create secure account, manage own data, trust authentication security |
+| Persona                  | Description                                                                                  | Goals                                                                                     | Key Use Cases                                                                          |
+| ------------------------ | -------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| Conscious Beauty Seeker  | Age 25-45, values natural ingredients and ethical manufacturing, willing to pay premium      | Find trusted beauty products quickly, verify ingredient safety, support ethical brands    | Browse by category, filter by ethical markers, read ingredient lists, save favorites   |
+| Mobile-First Shopper     | Primarily uses mobile devices, expects fast load times and intuitive navigation              | Complete purchases efficiently on mobile, track orders easily, manage shipping addresses  | Quick add-to-cart, mobile checkout, order status notifications                         |
+| Repeat Customer          | Existing customer with established preferences and purchase history                          | Reorder favorite products quickly, discover new products aligned with preferences         | Wishlist management, reorder from history, personalized recommendations                |
+| Gift Purchaser           | Buying beauty products as gifts, may be less familiar with specific products                 | Find popular/well-reviewed products, ensure timely delivery, manage multiple addresses    | Browse by popularity, gift recommendations, address book management                    |
 
 ---
 
 ## 7. Business Value & Expected Outcomes
 
-| Outcome                           | Description                                                 | KPI Alignment | Priority |
-| --------------------------------- | ----------------------------------------------------------- | ------------- | -------- |
-| User Adoption                     | Enable users to quickly create accounts and start using app | KPI-1, KPI-2  | High     |
-| Cross-Device Engagement           | Users actively use app on multiple devices                  | KPI-3, KPI-4  | High     |
-| Real-Time Collaboration Readiness | Foundation for future team/sharing features                 | KPI-5         | Medium   |
-| Data Integrity                    | Zero sync conflicts, consistent state across devices        | KPI-6         | High     |
+| Outcome                         | Description                                                                                  | KPI Alignment      | Priority |
+| ------------------------------- | -------------------------------------------------------------------------------------------- | ------------------ | -------- |
+| Increased Conversion Rate       | Streamlined discovery and checkout reduce abandonment and increase purchase completion       | KPI-01, KPI-02     | High     |
+| Higher Customer Lifetime Value  | Trust and convenience drive repeat purchases and customer loyalty                            | KPI-03, KPI-04     | High     |
+| Reduced Support Costs           | Clear product information and order tracking minimize customer service inquiries             | KPI-05             | Medium   |
+| Market Differentiation          | Purpose-built platform positions brand as category leader in ethical beauty ecommerce        | KPI-06             | High     |
+| Mobile Revenue Growth           | Mobile-first design captures growing mobile commerce segment                                 | KPI-07             | High     |
 
 ---
 
 ## 8. Success Metrics / KPIs
 
-| KPI ID | Name                      | Definition                                           | Baseline | Target | Source |
-| ------ | ------------------------- | ---------------------------------------------------- | -------- | ------ | ------ |
-| KPI-1  | User Registration Rate    | % of visitors who create accounts                    | 0%       | 35%    | GA4    |
-| KPI-2  | Time to First Task        | Avg. time from signup to first task created          | N/A      | < 60s  | GA4    |
-| KPI-3  | Multi-Device Usage        | % of users accessing from 2+ devices                 | 0%       | 40%    | GA4    |
-| KPI-4  | Sync Latency              | Avg. time for task changes to sync across devices    | N/A      | < 2s   | OTEL   |
-| KPI-5  | Weekly Active Users (WAU) | Users creating/completing at least 1 task per week   | 0        | TBD    | GA4    |
-| KPI-6  | Sync Conflict Rate        | % of sync operations resulting in conflicts          | N/A      | < 0.1% | OTEL   |
+| KPI ID  | Name                           | Definition                                                                | Baseline | Target  | Source         |
+| ------- | ------------------------------ | ------------------------------------------------------------------------- | -------- | ------- | -------------- |
+| KPI-01  | Conversion Rate                | (Purchases / Sessions) × 100                                              | 2.0%     | 4.5%    | GA4            |
+| KPI-02  | Cart Abandonment Rate          | (Carts Created - Purchases) / Carts Created × 100                         | 70%      | 50%     | GA4            |
+| KPI-03  | Repeat Purchase Rate           | (Customers with 2+ orders / Total customers) × 100                        | 15%      | 35%     | Internal DB    |
+| KPI-04  | Customer Lifetime Value        | Average revenue per customer over 12 months                               | $150     | $400    | Internal DB    |
+| KPI-05  | Support Ticket Volume          | Average support tickets per 100 orders                                    | 8        | 3       | Support System |
+| KPI-06  | Net Promoter Score (NPS)       | (% Promoters - % Detractors)                                              | 20       | 50      | Survey         |
+| KPI-07  | Mobile Revenue Percentage      | (Mobile revenue / Total revenue) × 100                                    | 45%      | 65%     | GA4            |
+| KPI-08  | Order Fulfillment Success Rate | (Orders delivered on time / Total orders) × 100                           | 85%      | 95%     | Shiprocket     |
+| KPI-09  | Payment Success Rate           | (Successful payments / Payment attempts) × 100                            | 92%      | 97%     | Cashfree       |
+| KPI-10  | Page Load Time (Mobile)        | 75th percentile page load time on mobile                                  | 3.5s     | 1.5s    | OTEL           |
 
 ---
 
 ## 9. Ubiquitous Language (Glossary)
 
-* **Todo** — A single task item with title, completion status, metadata (due date, priority, notes, tags), and timestamps
-* **User** — An authenticated account holder with unique credentials (email/password or OAuth)
-* **Sync** — The process of propagating changes across all user devices via polling mechanism
-* **Session** — An authenticated period with configurable duration based on user preference
-* **Conflict** — A state where concurrent changes to the same todo are resolved via last-write-wins
-* **Authentication** — The process of verifying user identity via email/password or OAuth providers (Google, GitHub)
-* **Real-Time** — Changes visible across devices within 2 seconds under normal conditions (polling-based)
-* **Device** — Any client (browser, mobile app) where the user accesses the application
-* **Offline-First** — Full CRUD capability, registration, and login work without network connectivity
-* **Sharing** — Ability to share individual todos with other users with edit permissions
-* **Hybrid Sync** — Server validates changes, clients can operate offline with eventual consistency
+* **Product** — A distinct beauty item available for purchase (cosmetic, skin care, or hair care product)
+* **Catalog** — The complete collection of products organized by category and ethical markers
+* **Cart** — A server-side collection of products selected for purchase, persisted for 30 days for both authenticated and guest users
+* **Wishlist** — A user's saved collection of products for future consideration (requires authentication, syncs across devices)
+* **Order** — A confirmed purchase transaction with payment, shipping, and fulfillment details
+* **Guest User** — An unauthenticated user identified by a guest token, can complete checkout without account creation
+* **Ethical Marker** — Product attribute indicating third-party certified compliance with values (cruelty-free via Leaping Bunny, PETA vegan certification)
+* **Bounded Context** — A logical domain boundary within the DDD architecture (IAM, Catalog, Cart, Order, Payment, Shipping, Addresses)
+* **Aggregate** — A cluster of domain objects treated as a single unit for data changes
+* **Event** — An immutable fact recording that something happened in the system
+* **Command** — An intent to perform a state-changing operation
+* **Query** — A request for data without side effects
+* **Projection** — A denormalized read model derived from events
+* **Feature Flag** — A runtime toggle controlling feature availability and behavior
+* **Strong Consistency** — Immediate data consistency required for payment, order creation, and inventory deduction
+* **Eventual Consistency** — Acceptable delayed consistency (< 1s) for catalog updates, wishlist sync, and order status
 
 ---
 
@@ -135,29 +162,85 @@ Users need a simple yet powerful way to track tasks across multiple devices with
 
 ### Bounded Contexts
 
-| Context             | Purpose                                  | Core Aggregate | Entities                | Value Objects                |
-| ------------------- | ---------------------------------------- | -------------- | ----------------------- | ---------------------------- |
-| Identity            | Multi-method authentication (email/password + OAuth) and account management with recovery | User           | User, Session, OAuthProvider | Email, Password, Token, OAuthToken |
-| Task Management     | Todo CRUD with rich metadata (due date, priority, notes, tags, assigned user) and sharing | Todo           | Todo, TodoList, SharedTodo | Title, Status, DueDate, Priority, Tags, Notes |
-| Synchronization     | Polling-based sync with hybrid authority and last-write-wins conflict resolution | SyncSession    | SyncEvent, SyncState    | DeviceId, ChangeVector, Hash, Timestamp |
+| Context              | Purpose                                                                  | Core Aggregate     | Entities                        | Value Objects                           |
+| -------------------- | ------------------------------------------------------------------------ | ------------------ | ------------------------------- | --------------------------------------- |
+| IAM                  | Identity and access management, user authentication and authorization    | User               | User, Session                   | Email, Password, UserRole               |
+| Catalog              | Product information, categorization, and discovery                       | Product            | Product, Category               | ProductId, SKU, Price, IngredientList   |
+| Cart                 | Shopping cart management and session persistence                         | Cart               | Cart, CartItem                  | CartId, Quantity, SessionId             |
+| Order                | Order lifecycle management from creation to completion                   | Order              | Order, OrderItem, OrderStatus   | OrderId, OrderState, Timestamp          |
+| Payment              | Payment processing and transaction management                            | PaymentTransaction | PaymentTransaction, Refund      | TransactionId, Amount, PaymentMethod    |
+| Shipping             | Shipping address management and shipment tracking                        | Shipment           | Shipment, TrackingEvent         | ShipmentId, TrackingNumber, Carrier     |
+| Addresses            | User address management for shipping and billing                         | Address            | Address                         | AddressId, PostalCode, Country          |
+
+### Context Relationships
+
+```mermaid
+flowchart LR
+  subgraph IAM[Identity & Access]
+    IAM_SVC[IAM Service]
+  end
+
+  subgraph CAT[Product Catalog]
+    CAT_SVC[Catalog Service]
+  end
+
+  subgraph CART[Cart]
+    CART_SVC[Cart Service]
+  end
+
+  subgraph ORDER[Order Management]
+    ORD_SVC[Order Service]
+  end
+
+  subgraph PAY[Payments]
+    PAY_SVC[Payments Service]
+  end
+
+  subgraph SHIP[Shipping]
+    SHIP_SVC[Shipping Service]
+  end
+
+  subgraph ADDR[Addresses]
+    ADDR_SVC[Addresses Service]
+  end
+
+  EXT_PSP[(Cashfree API)]
+  EXT_CARRIER[(Shiprocket API)]
+
+  IAM_SVC --> CART_SVC
+  CAT_SVC --> CART_SVC
+  CART_SVC --> ORD_SVC
+  ORD_SVC <--> PAY_SVC
+  PAY_SVC -- webhooks --> ORD_SVC
+  PAY_SVC -- charge --> EXT_PSP
+  ORD_SVC --> SHIP_SVC
+  SHIP_SVC -- tracking --> EXT_CARRIER
+```
 
 ---
 
 ## 11. Event Taxonomy Summary
 
-| Event Name          | Producer Context | Consumers               | Trigger Aggregate |
-| ------------------- | ---------------- | ----------------------- | ----------------- |
-| UserRegistered      | Identity         | Task Management         | User              |
-| UserAuthenticated   | Identity         | Task Management, Sync   | Session           |
-| OAuthLinked         | Identity         | Task Management         | OAuthProvider     |
-| PasswordResetRequested | Identity      | Task Management         | User              |
-| TodoCreated         | Task Management  | Synchronization         | Todo              |
-| TodoUpdated         | Task Management  | Synchronization         | Todo              |
-| TodoDeleted         | Task Management  | Synchronization         | Todo              |
-| TodoShared          | Task Management  | Synchronization         | SharedTodo        |
-| SyncRequested       | Synchronization  | Task Management         | SyncSession       |
-| SyncCompleted       | Synchronization  | Task Management         | SyncSession       |
-| SyncFailed          | Synchronization  | Task Management         | SyncSession       |
+| Event Name                 | Producer Context | Consumers                 | Trigger Aggregate      |
+| -------------------------- | ---------------- | ------------------------- | ---------------------- |
+| UserRegistered             | IAM              | Wishlist                  | User                   |
+| UserAuthenticated          | IAM              | Cart, Order               | User                   |
+| ProductAddedToCatalog      | Catalog          | Search Index              | Product                |
+| ProductUpdated             | Catalog          | Cart, Search Index        | Product                |
+| ProductBackInStock         | Catalog          | Wishlist, Notifications   | Product                |
+| ItemAddedToCart            | Cart             | Analytics                 | Cart                   |
+| ItemAddedToWishlist        | Cart             | Notifications             | Wishlist               |
+| CartCheckedOut             | Cart             | Order                     | Cart                   |
+| CartAbandoned              | Cart             | Notifications             | Cart                   |
+| OrderCreated               | Order            | Payment, Shipping         | Order                  |
+| OrderCancelled             | Order            | Payment, Inventory        | Order                  |
+| PaymentInitiated           | Payment          | Order                     | PaymentTransaction     |
+| PaymentCompleted           | Payment          | Order, Shipping           | PaymentTransaction     |
+| PaymentFailed              | Payment          | Order, Notifications      | PaymentTransaction     |
+| ShipmentCreated            | Shipping         | Order, Notifications      | Shipment               |
+| TrackingNumberAssigned     | Shipping         | Order                     | Shipment               |
+| ShipmentStatusUpdated      | Shipping         | Order                     | Shipment               |
+| AddressAdded               | Addresses        | Order                     | Address                |
 
 ---
 
@@ -165,12 +248,18 @@ Users need a simple yet powerful way to track tasks across multiple devices with
 
 All UI must use a **design system delivered via MCP**.
 
-| Parameter         | Value                     |
-| ----------------- | ------------------------- |
-| **MCP Server**    | `design-system-mcp`       |
-| **Design System** | `material-components-web` |
+| Parameter         | Value                             |
+| ----------------- | --------------------------------- |
+| **MCP Server**    | `design-system-mcp`               |
+| **Design System** | `itsme-fashion-design-system`     |
 
 Raw HTML/CSS is prohibited unless explicitly approved in a Feature Blueprint.
+
+**Design System Requirements:**
+- Mobile-first responsive components
+- Accessibility compliance (WCAG 2.1 AA)
+- Consistent typography, spacing, and color tokens
+- Pre-built components for common patterns (product cards, cart items, forms)
 
 ---
 
@@ -178,29 +267,10 @@ Raw HTML/CSS is prohibited unless explicitly approved in a Feature Blueprint.
 
 **Diagram Required**
 
-```mermaid
-graph TD
-    A[User Registration] --> B[User Authentication]
-    B --> C[Todo Management]
-    C --> D[Real-Time Sync]
-    
-    subgraph "Identity Context"
-        A
-        B
-    end
-    
-    subgraph "Task Management Context"
-        C
-    end
-    
-    subgraph "Synchronization Context"
-        D
-    end
-    
-    B -.->|Authenticated Session| C
-    C -.->|Todo Events| D
-    D -.->|Sync State| C
-```
+* Format: **Mermaid**
+* Location: `docs/diagrams/feature-execution-flow.md`
+
+*To be generated during roadmap decomposition and feature specification phases.*
 
 ---
 
@@ -211,21 +281,29 @@ Source of truth is **GitHub**.
 ```text
 /
 ├── .github/
-│   └── workflows/
+│   ├── agents/           # Agent definitions
+│   ├── skills/           # Agent skills
+│   └── workflows/        # CI/CD workflows
 ├── docs/
-│   ├── product/
-│   │   └── PRD.md
-│   ├── features/
-│   └── diagrams/
+│   ├── product/          # PRD, roadmap
+│   ├── features/         # Feature specifications
+│   ├── epics/            # Epic definitions
+│   ├── execution/        # Execution flow documentation
+│   └── diagrams/         # Mermaid diagrams
 ├── src/
-│   ├── identity/
-│   ├── task-management/
-│   └── synchronization/
-├── tests/
-│   ├── unit/
-│   ├── integration/
-│   └── e2e/
-└── package.json
+│   ├── services/         # Bounded context services
+│   │   ├── iam/
+│   │   ├── catalog/
+│   │   ├── cart/
+│   │   ├── order/
+│   │   ├── payment/
+│   │   ├── shipping/
+│   │   └── addresses/
+│   ├── shared/           # Shared utilities and types
+│   └── frontend/         # Lit web components
+├── firebase.json
+├── package.json
+└── README.md
 ```
 
 ---
@@ -247,28 +325,35 @@ When <action>
 Then <expected outcome>
 ```
 
+All feature specifications must follow the canonical template located at:
+`.github/skills/doc-feature-specification/assets/feature-spec.template.md`
+
 ---
 
 ## 16. Traceability & Compliance Matrix
 
-| Feature ID | Flag ID | Flag Key | Bounded Context | Status |
-| ---------- | ------- | -------- | --------------- | ------ |
-| TBD        | TBD     | TBD      | TBD             | Draft  |
+*This section will be populated during feature specification and implementation phases.*
+
+| Feature ID | Flag ID | Flag Key                                      | Bounded Context | Status     |
+| ---------- | ------- | --------------------------------------------- | --------------- | ---------- |
+| TBD        | TBD     | feature_fe_[feat]_fl_[flag]_[context]_enabled| TBD             | TBD        |
 
 ---
 
 ## 17. Non-Functional Requirements (NFRs)
 
-| Metric                | ID     | Target             | Tool |
-| --------------------- | ------ | ------------------ | ---- |
-| Sync Latency (Polling)| NFR-1  | < 5 seconds (p95)  | OTEL |
-| API Response Time     | NFR-2  | < 200ms (p95)      | OTEL |
-| Offline Availability  | NFR-3  | 100% CRUD + auth   | OTEL |
-| Data Durability       | NFR-4  | 99.99%             | OTEL |
-| Concurrent Users      | NFR-5  | Support 10k users  | Load Testing |
-| Authentication Time   | NFR-6  | < 500ms (p95)      | OTEL |
-| OAuth Flow Time       | NFR-7  | < 3 seconds (p95)  | OTEL |
-| Poll Interval         | NFR-8  | 2-5 seconds        | Config |
+| Metric                      | ID      | Target                      | Tool                  |
+| --------------------------- | ------- | --------------------------- | --------------------- |
+| Page Load Time (Mobile)     | NFR-01  | < 2s (75th percentile)      | OTEL, Lighthouse      |
+| API Response Time           | NFR-02  | < 300ms (95th percentile)   | OTEL                  |
+| Availability                | NFR-03  | 99.9% uptime                | Firebase Monitoring   |
+| Concurrent Users            | NFR-04  | Support 10,000 simultaneous | Load Testing          |
+| Data Consistency            | NFR-05  | Eventual consistency < 1s   | Event Store Metrics   |
+| Mobile Responsiveness       | NFR-06  | Support 320px-2560px width  | Responsive Testing    |
+| Accessibility               | NFR-07  | WCAG 2.1 AA compliance      | Axe, WAVE             |
+| Browser Support             | NFR-08  | Chrome, Safari, Firefox, Edge (last 2 versions) | Cross-browser Testing |
+| Payment Processing Time     | NFR-09  | < 5s end-to-end             | Cashfree Metrics      |
+| Image Load Time             | NFR-10  | < 1s per product image      | Firebase Storage + CDN|
 
 ---
 
@@ -276,12 +361,21 @@ Then <expected outcome>
 
 Mandatory tooling (parameterized):
 
-* **Analytics:** Google Analytics 4 (GA4) — Anonymous analytics only, no consent required
-* **Telemetry:** OpenTelemetry (OTEL)
-* Structured logs, metrics, and traces required for all features
-* Error tracking and alerting for sync failures
-* User journey tracking for onboarding flow
-* **Privacy Policy:** Anonymous analytics with no personally identifiable information (PII) collection
+* **Analytics:** `Google Analytics 4 (GA4)`
+* **Telemetry:** `OpenTelemetry (OTEL)`
+* Structured logs, metrics, and traces required
+
+**Instrumentation Requirements:**
+- All user interactions tracked (clicks, navigation, form submissions)
+- All API requests instrumented with distributed tracing
+- Business events logged (product views, cart additions, checkout starts, purchases)
+- Error tracking with stack traces and context
+- Performance metrics (Core Web Vitals, custom timing marks)
+
+**Privacy & Compliance:**
+- PII anonymization in logs and traces
+- GDPR-compliant data retention policies
+- User consent management for analytics cookies
 
 ---
 
@@ -293,88 +387,160 @@ Mandatory tooling (parameterized):
 feature_fe_[feature_issue]_fl_[flag_issue]_[context]_enabled
 ```
 
+**Example:**
+```
+feature_fe_42_fl_43_catalog_enabled
+```
+
 ### Lifecycle
 
 * Flags required for all features
-* Flags removed after 100% rollout and validation
-* Temporary flags for progressive rollout
-* Permanent flags for A/B testing or user segmentation
+* Flags removed after 100% rollout and validation (within 30 days of full release)
+* Flag state changes logged and auditable
+
+**Flag Categories:**
+- **Temporary Release Flags**: Control progressive rollout (removed after full release)
+- **Permanent Operational Flags**: Control optional features or experiments (retained)
+- **Kill Switches**: Emergency feature disable capability (retained)
+
+**Implementation:**
+- Managed via Firebase Remote Config
+- Server-side and client-side flag evaluation
+- Default values defined in code for safety
 
 ---
 
 ## 20. Security & Compliance
 
-* **Input Validation:** All user inputs sanitized and validated
-* **Password Security:** Hashed with bcrypt (cost factor 12+)
-* **OAuth Security:** Support for Google and GitHub OAuth providers with secure token storage
-* **Session Management:** HTTP-only, secure cookies with CSRF protection, configurable duration per user
-* **Password Recovery:** Email-based password reset with time-limited tokens
-* **API Authentication:** JWT tokens with expiration and refresh mechanism
-* **Data Encryption:** TLS 1.3 for data in transit
-* **Access Control:** Complete data isolation per user, shared todos with explicit permissions
-* **Rate Limiting:** Prevent brute force attacks on authentication endpoints
-* **GDPR Compliance:** Immediate permanent deletion on user request, no data retention
-* **Offline Security:** Encrypted local storage for offline authentication credentials
+**Authentication & Authorization:**
+- Firebase Authentication with email/password
+- JWT-based session management
+- Role-based access control (RBAC) where applicable
+
+**Data Protection:**
+- All data at rest encrypted (Firestore native encryption)
+- All data in transit encrypted (TLS 1.3+)
+- PII identified and protected according to GDPR/CCPA requirements
+- Payment card data never stored (handled by Cashfree PCI-compliant gateway)
+
+**Input Validation:**
+- All user inputs validated and sanitized
+- GraphQL query depth and complexity limits enforced
+- Rate limiting on all public endpoints
+
+**Compliance Requirements:**
+- GDPR compliance for EU users (consent, right to deletion, data portability)
+- CCPA compliance for California users
+- PCI DSS compliance via Cashfree gateway
+- Cookie consent management
+
+**Security Monitoring:**
+- Failed authentication attempt tracking
+- Anomaly detection for fraud prevention
+- Regular security audits and penetration testing
 
 ---
 
 ## 21. Risks / Assumptions / Constraints
 
-| Type       | Description                                            | Mitigation                                                |
-| ---------- | ------------------------------------------------------ | --------------------------------------------------------- |
-| Risk       | Sync conflicts with concurrent edits                   | Last-write-wins strategy with timestamp-based resolution  |
-| Risk       | Polling overhead with high user count                  | Adaptive poll intervals, efficient delta queries          |
-| Risk       | Offline data loss if device lost before sync           | Acceptable risk, users warned about offline limitations   |
-| Risk       | Sync failures due to network instability               | Show error banner, queue changes, allow offline usage     |
-| Assumption | Users accept last-write-wins for conflict resolution   | Validated during clarifications                           |
-| Assumption | Polling latency (2-5s) is acceptable for todo app      | Confirmed via requirements                                |
-| Assumption | Users trust cloud storage for personal task data       | Anonymous analytics, immediate deletion on request        |
-| Constraint | Limited to web platform initially                      | All major desktop/mobile browsers + tablets supported     |
-| Constraint | Polling-based sync (not WebSocket/SSE)                 | Simpler implementation, acceptable latency for use case   |
+| Type       | Description                                                                                                      | Mitigation                                                                                  |
+| ---------- | ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| Risk       | Third-party payment gateway (Cashfree) downtime impacts order completion                                         | Implement retry logic, queue failed transactions, clear user communication                  |
+| Risk       | Third-party shipping provider (Shiprocket) API reliability affects tracking accuracy                             | Cache tracking data, graceful degradation, manual tracking update capability                |
+| Risk       | Mobile network variability affects user experience and conversion                                                | Aggressive performance optimization, offline-first capabilities, progressive enhancement    |
+| Risk       | Product inventory data synchronization lag causes overselling                                                    | Real-time inventory checks at checkout, reservation system, clear backorder communication   |
+| Assumption | Users have modern browsers (last 2 versions of major browsers)                                                   | Document browser requirements, test across supported browsers                               |
+| Assumption | Firestore scaling characteristics meet performance requirements at projected scale                               | Load testing, monitoring, capacity planning with Firebase support                           |
+| Assumption | Cashfree webhook delivery is reliable for payment status updates                                                 | Implement polling fallback, idempotent event handling, webhook retry monitoring             |
+| Assumption | Initial market is US-only; data residency in us-central1 GCP region sufficient for launch                        | Design for future multi-region expansion, monitor international demand                      |
+| Assumption | Ethical certifications from recognized third-party organizations (Leaping Bunny, PETA) are available for products| Validate certification availability with suppliers, establish fallback for uncertified products|
+| Constraint | Firebase Cloud Functions cold start latency (up to 2s) may impact API response times                             | Keep critical functions warm, optimize bundle size, pre-warm on deployment                  |
+| Constraint | GraphQL Mesh introduces additional latency layer between client and services                                     | Optimize mesh configuration, implement caching, monitor gateway performance                 |
+| Constraint | Budget limitations require serverless architecture (no dedicated infrastructure)                                 | Design for Firebase/GCP serverless platform constraints, optimize for cost efficiency       |
+| Constraint | Product inventory authority is external; itsme.fashion consumes near-real-time sync (< 5s lag acceptable)        | Cache inventory reads, validate at checkout, clear messaging on stock status                |
 
 ---
 
 ## 22. Out of Scope
 
-* Native mobile applications (iOS, Android) — Phase 2
-* Team workspaces / organizations — Future consideration
-* Rich text formatting in todo descriptions — Phase 2
-* File attachments — Phase 2
-* Recurring tasks / reminders — Phase 2
-* Third-party integrations (calendar, email) — Future consideration
-* Custom themes / UI personalization — Phase 2
-* Subtasks / nested todos — Phase 2
-* Advanced search / filtering — Phase 2
-* Todo templates — Phase 2
-* Bulk operations — Phase 2
-* Export/import functionality — Phase 2
+The following capabilities are explicitly excluded from the initial product scope:
+
+* **Multi-currency / International Shipping**: Initially supporting single currency (USD) and domestic US shipping only
+* **User-Generated Content**: Product reviews, ratings, and user photos deferred to post-launch
+* **Social Features**: User profiles, social sharing, wishlists sharing excluded
+* **Subscription / Recurring Orders**: Subscription-based product delivery not supported initially
+* **Affiliate / Referral Programs**: Marketing partnership features deferred
+* **Mobile Native Apps**: Web-only initially; native iOS/Android apps out of scope
+* **Live Chat Support**: Customer support via email only; live chat deferred
+* **AR/VR Product Visualization**: Advanced product visualization features excluded
+* **Loyalty Points / Rewards Program**: Customer loyalty programs deferred to phase 2
+* **Gift Cards / Store Credit**: Alternative payment methods beyond Cashfree excluded
+* **B2B / Wholesale Capabilities**: Focused exclusively on direct-to-consumer sales
+* **Multi-vendor Marketplace**: Single brand/seller model; marketplace features excluded
+* **Advanced Personalization**: ML-based product recommendations deferred
+* **Inventory Management UI**: Product inventory synchronized from external system; no inventory management interface in itsme.fashion
+* **Content Management System**: Product content managed directly via Firestore; no CMS UI
+* **Order Splitting**: Single shipping address per order; multi-address gifting requires separate orders
 
 ---
 
 ## 23. Rollout & Progressive Delivery
 
-1. **Internal Alpha:** Development team and stakeholders (100 users max)
-2. **Limited Beta:** Invited external users (500 users max, 30% feature flag)
-3. **General Availability:** Public launch (100% rollout after beta validation)
+**Phase 1: Internal Alpha** (Weeks 1-2)
+- Internal team testing only
+- Core user journeys validated (browse, cart, checkout, order tracking)
+- Performance and security baseline established
+- All critical bugs resolved before Beta
 
-Each phase includes:
-* Monitoring sync performance and error rates
-* Gathering user feedback
-* Validating authentication security
-* Measuring KPIs against targets
+**Phase 2: Limited Beta** (Weeks 3-6)
+- Invite-only access for 100-500 early adopters
+- Feature flags enable gradual feature rollout
+- Active monitoring and rapid iteration based on feedback
+- Payment processing with real transactions (limited volume)
+- Support processes validated
+
+**Phase 3: General Availability** (Week 7+)
+- Public launch with full feature set
+- Progressive rollout to broader audience (10% → 50% → 100% over 2 weeks)
+- Continued monitoring and optimization
+- Feature flag cleanup (temporary flags removed)
+- Full marketing and customer acquisition efforts
+
+**Rollback Criteria:**
+- Payment success rate < 90%
+- Order fulfillment success rate < 80%
+- Critical security vulnerability identified
+- P0/P1 bugs affecting > 10% of users
+
+**Monitoring During Rollout:**
+- Real-time KPI dashboards (conversion, errors, performance)
+- Automated alerts for anomalies
+- Daily rollout review meetings
+- User feedback collection and triage
 
 ---
 
 ## 24. Appendix
 
-### References
+**References:**
+- Firebase Documentation: https://firebase.google.com/docs
+- Lit Framework: https://lit.dev
+- GraphQL Mesh: https://the-guild.dev/graphql/mesh
+- Cashfree Payment Gateway: https://www.cashfree.com
+- Shiprocket Shipping Integration: https://www.shiprocket.in
+- OpenTelemetry: https://opentelemetry.io
+- DDD Reference: Domain-Driven Design by Eric Evans
 
-* [WebSocket vs SSE Comparison](https://example.com)
-* [JWT Best Practices](https://example.com)
-* [CRDT for Sync Conflict Resolution](https://example.com)
+**Supporting Documents:**
+- Technology Stack Documentation: `itsme.md`
+- Architecture Diagrams: `docs/diagrams/`
+- Agent Skills Documentation: `.github/skills/`
 
-### Supporting Documents
-
-* Technical Architecture Document (to be created)
-* Security Review Checklist (to be created)
-* API Specification (to be created)
+**Glossary of Technical Terms:**
+- **CQRS**: Command Query Responsibility Segregation - separating read and write operations
+- **Event Sourcing**: Storing state changes as a sequence of events rather than current state
+- **Aggregate**: A cluster of domain objects that can be treated as a single unit
+- **Bounded Context**: A logical boundary within which a domain model is defined and applicable
+- **GraphQL Mesh**: A gateway that composes multiple GraphQL services into a unified API
+- **Firebase Cloud Functions**: Serverless compute platform for backend services
+- **Firestore**: NoSQL document database with real-time synchronization
