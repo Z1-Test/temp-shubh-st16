@@ -1,6 +1,6 @@
 # 📘 Product Requirements Document (PRD)
 
-**Version:** `1.0.0` | **Status:** `Draft`
+**Version:** 1.1.0 | **Status:** In Review
 
 ## Table of Contents
 
